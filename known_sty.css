@@ -1,0 +1,163 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.navigation ul a{
+  margin: 0;
+  text-align: center;
+  list-style: none; 
+  display: table;
+  width: 100%;
+  text-decoration: none;
+  padding-left: -100px;
+  color: red;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.navigation li{
+  color: red;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 40px;
+  display: table-cell;
+  width: 300px;
+}
+
+.navigation li.logo{
+  font-weight: 700; 
+  color: red;
+}
+
+.navigation li.impact{
+  position: relative;
+  left: -40px;
+}
+
+.navigation li.known{
+  position: relative;
+  left: -40px;
+}
+
+.navigation li.impact:hover{
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+}
+
+.navigation li.home:hover{
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+.navigation li.events:hover{
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+}
+
+#banner {
+  background-image: url("stickies.png");
+  background-size: cover;
+  background-position: bottom center;
+  height: 550px;
+  width: 700px;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+ 
+}
+
+
+h2 {
+  color: red;
+  font-size: 12px;
+  line-height: 48px;
+  margin-bottom: -35px;
+  text-align: center;
+}
+
+
+h3 {
+  color: red;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+p {
+  color: gray;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+#statement{
+  font-size: 10px;
+  margin-bottom: -35px;
+  
+}
+
+.share {
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
